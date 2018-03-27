@@ -1,0 +1,66 @@
+/*Nav Bar*/
+#page-top{
+  font-family: Lato,'sans-serif';
+}
+nav {
+  font-weight: 700;
+}
+.big-brand{
+  font-size: 1.5em;
+}
+section {
+  padding: 150px 0;
+}
+/* slideshow */
+.carousel-inner img{
+  height: 700px;
+}
+
+/* Team */
+#Team{
+  margin-top: 50px;
+}
+
+.image-odd img{
+  height: 175px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 50%;
+}
+
+.image-even img{
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 175px;
+  border-radius: 50%;
+}
+.one, .three, .five{
+  border-bottom: 2px solid grey;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.description-odd > p{
+  margin-top: 30px;
+}
+.two, .four, .six{
+  border-bottom: 2px solid grey;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.description-even > p{
+  text-align: right;
+  margin-top: 30px;
+}
+
+.icons{
+  margin-top: 30px;
+  display:flex;
+  flex-direction: column;
+}
